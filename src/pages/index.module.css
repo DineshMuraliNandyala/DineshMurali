@@ -13,18 +13,19 @@
 }
 
 .image {
-  width: 250px; /* Increased width */
-  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+  width: 350px; /* Increased width */
+  height: 350px; /* Maintain aspect ratio */
   margin-left: 40px; /* Space between text and image */
-  transition: transform 0.5s ease; /* Added transition for scaling */
+  transition: transform 0.7s ease; /* Added transition for scaling */
 }
 
 .image:hover {
-  transform: scale(1.1); /* Scaling effect on hover */
+  transform: scale(1.2); /* Scaling effect on hover */
 }
 
 .title {
-  color: #333333;
+  color: #409895;
   font-size: 2.5em;
   margin-bottom: 10px;
   font-family: 'Arial', sans-serif; /* Change font family */
