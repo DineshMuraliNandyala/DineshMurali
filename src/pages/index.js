@@ -25,7 +25,7 @@ function HomepageHeader() {
             problem-solving abilities to drive impactful results.
           </p>
         </div>
-        <img src="/img/Me.jpg" alt="Dinesh Murali Nandyala" className={styles.image} />
+        <img src="/path/to/your/image.jpg" alt="Dinesh Murali Nandyala" className={styles.image} />
       </div>
     </header>
   );
