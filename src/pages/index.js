@@ -11,27 +11,27 @@ function HomepageHeader() {
 
   return (
     <header className={styles.container}>
-      <img src="/img/me.jpg" alt="Your Photo" className={styles.image} />
       <div className={styles.content}>
-        <h1>Dinesh Murali Nandyala</h1>
-        <p>
-        As a final-year B.Tech student specializing in Artificial Intelligence and Data Science, 
-        I am driven by a strong passion for applying AI-driven solutions across domains. 
-        With hands-on experience in advanced ML model development, computer vision, IoT, and cloud-based deployments, 
-        I am eager to contribute as an entry-level AI engineer in challenging and innovative roles. 
-        My recent internships and projects have honed my skills in human action recognition, 
-        database security, and scalable, real-time applications, making me well-prepared for dynamic roles in the industry. 
-        Open to both freelancing and full-time opportunities, I am committed to utilizing my technical expertise and creative 
-        problem-solving abilities to drive impactful results.
-        </p>
-        {/* Add anchor link to Projects section
-        <a href="#projects" className={styles.projectLink}>
-          View Projects
-        </a> */}
+        <div>
+          <h1 className={styles.title}>Dinesh Murali Nandyala</h1>
+          <p className={styles.description}>
+            As a final-year B.Tech student specializing in Artificial Intelligence and Data Science, 
+            I am driven by a strong passion for applying AI-driven solutions across domains. 
+            With hands-on experience in advanced ML model development, computer vision, IoT, and cloud-based deployments, 
+            I am eager to contribute as an entry-level AI engineer in challenging and innovative roles. 
+            My recent internships and projects have honed my skills in human action recognition, 
+            database security, and scalable, real-time applications, making me well-prepared for dynamic roles in the industry. 
+            Open to both freelancing and full-time opportunities, I am committed to utilizing my technical expertise and creative 
+            problem-solving abilities to drive impactful results.
+          </p>
+        </div>
+        <img src="/img/Me.jpg" alt="Dinesh Murali Nandyala" className={styles.image} />
       </div>
     </header>
   );
 }
+
+
 
 function ProjectCard({ image, title, description, technologies, link }) {
   return (
