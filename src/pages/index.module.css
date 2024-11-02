@@ -21,7 +21,7 @@
 }
 
 .image:hover {
-  transform: scale(1.2); /* Scaling effect on hover */
+  transform: scale(1.1); /* Scaling effect on hover */
 }
 
 .title {
